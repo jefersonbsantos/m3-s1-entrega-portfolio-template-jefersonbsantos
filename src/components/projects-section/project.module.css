@@ -68,3 +68,13 @@
 
   cursor: pointer;
 }
+
+@media (min-width: 769px) {
+  .container ul {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .container ul li {
+    width: 439px;
+  }
+}

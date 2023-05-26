@@ -4,7 +4,9 @@ function About() {
   return (
     <>
       <section className={Styles.container}>
-        <h2>Sobre mim</h2>
+        <div>
+          <h2>Sobre mim</h2>
+        </div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ex
           magna, imperdiet sodales sem quis, sollicitudin lobortis purus. Etiam

@@ -1,10 +1,11 @@
 import Styles from "./header.module.css";
+import Logo from "../../assets/portfolio.png";
 
 function Header() {
   return (
     <>
       <header className={Styles.container}>
-        <p>Portfólio</p>
+        <img src={Logo} alt="Portfolio Logo" />
         <nav>
           <span>Sobre</span>
           <span>Stack</span>

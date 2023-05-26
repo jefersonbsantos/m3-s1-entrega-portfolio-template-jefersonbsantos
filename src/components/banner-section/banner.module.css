@@ -10,18 +10,21 @@
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 22px;
+  margin-bottom: 20px;
 }
 
 .container h1 {
   font-weight: 800;
   font-size: 4.2rem;
   line-height: 51px;
+  margin-bottom: 25px;
 }
 
 .container p {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 30px;
+  margin-bottom: 20px;
 }
 
 .container button {
@@ -37,8 +40,21 @@
   font-weight: 600;
   font-size: 14px;
   line-height: 17px;
+  margin-bottom: 15px;
 }
 
 .container button:hover {
   background-color: var(--color-primary-hover);
+}
+
+@media (min-width: 769px) {
+  .container {
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+  .container img {
+    width: 438px;
+    height: 266px;
+    margin: auto 0;
+  }
 }

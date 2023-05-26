@@ -8,11 +8,13 @@ function Footer() {
   return (
     <>
       <section className={Styles.container}>
-        <h2>Contato</h2>
         <div>
-          <img src={whatsLogo} alt="Logo do whatsapp" />
-          <img src={linkedinLogo} alt="Logo do LinkedIn" />
-          <img src={githubLogo} alt="Logo do Github" />
+          <h2>Contato</h2>
+          <div>
+            <img src={whatsLogo} alt="Logo do whatsapp" />
+            <img src={linkedinLogo} alt="Logo do LinkedIn" />
+            <img src={githubLogo} alt="Logo do Github" />
+          </div>
         </div>
         <p>
           Todos os direitos reservados - <span>{user}</span>
