@@ -1,0 +1,35 @@
+:root {
+  --color-primary: #6880ff;
+  --color-primary-hover: #7c91ff;
+  --black: #000000;
+  --white: #ffffff;
+
+  --font-weight-bold: bold;
+  font-size: 62.5%;
+}
+
+/* body, */
+html {
+  width: 100vw;
+  height: 100vh;
+}
+
+body {
+  background-color: var(--black);
+  color: var(--white);
+  -webkit-font-smoothing: antialiased;
+
+  overflow-x: hidden;
+
+  width: 80%;
+  margin: 0 auto;
+}
+
+body,
+button {
+  font-family: "Inter", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}

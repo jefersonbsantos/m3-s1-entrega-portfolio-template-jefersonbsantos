@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.container span {
+  color: var(--color-primary);
+
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 22px;
+}
+
+.container h1 {
+  font-weight: 800;
+  font-size: 4.2rem;
+  line-height: 51px;
+}
+
+.container p {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 30px;
+}
+
+.container button {
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 12px;
+
+  width: 130px;
+  height: 39px;
+
+  color: var(--white);
+
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.container button:hover {
+  background-color: var(--color-primary-hover);
+}
