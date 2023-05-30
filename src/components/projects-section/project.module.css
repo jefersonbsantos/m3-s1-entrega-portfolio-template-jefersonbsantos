@@ -75,6 +75,7 @@
     flex-wrap: wrap;
   }
   .container ul li {
-    width: 439px;
+    min-width: 380px;
+    width: 35%;
   }
 }

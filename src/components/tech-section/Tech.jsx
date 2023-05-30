@@ -1,4 +1,4 @@
-import Techs from "./getTechs";
+import Techs from "../fragments/getTechs";
 import Styles from "./tech.module.css";
 
 function Tech() {

@@ -1,4 +1,4 @@
-import Projects from "./getProjects";
+import Projects from "../fragments/getProjects";
 import Styles from "./project.module.css";
 
 function Project() {
